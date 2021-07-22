@@ -1,70 +1,82 @@
 <DOCTYPE html>
-<html>
-<head>
-    <title>Form 2</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+  <html>
+  <head>
+  <title>Form</title>
+  <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <li><a href="https://w0468737.github.io/main/">Home</a></li>
+      <li><a href="https://w0468737.github.io/main/form2.html">Form 2</a></li>
+    <!--Form-->
+    <div class="form">
     <form action="mailto:stephen.franks@nscc.ca?subject=From%20our%20Website" 
-
-    method="post" enctype="text/plain">
-    
-    <table style="width:100%">
-    
-      <br>  
-    
-      <label for="Province">Province</label>
+  
+  method="post" enctype="text/plain">
+  
+  <table style="width:100%">
+  
+    <br>  
+  
+    <label for="Province">Province</label>
+  <br>
+  
+    <select name="Province" id="Province">
+      <option value="Nova Scotia">Nova Scotia</option>
+      <option value="Prince Edward Island">Prince Edward Island</option>
+      <option value="New Brunswick">New Brunswick</option>
+      <option value="Newfoundland">Newfoundland</option>
+    </select>
+  <br><br>
+  <br>
+      City:<br>
+  
+      <input type="City" name="City" minlength="3" required="required"><br>
+  <br><br>
+      Your first and Last Name:<br>
+  
+      <input type="text" name="YourName" minlength="3" required="required" size="50"><br>
+  <br>
+      Phone number (format: xxx-xxx-xxxx)<br>
+  
+      <input type="tel" name="phone number" pattern="^\d{3}-\d{3}-\d{4}$" required="required"><br>
     <br>
-      <select name="Province" id="Province">
-        <option value="Nova Scotia">Nova Scotia</option>
-        <option value="Prince Edward Island">Prince Edward Island</option>
-        <option value="New Brunswick">New Brunswick</option>
-        <option value="Newfoundland">Newfoundland</option>
-      </select>
-    <br>
-        City:<br>
-    
-        <input type="City" name="City" minlength="3" required="required"><br>
-    
-        Your first and Last Name:<br>
-    
-        <input type="text" name="YourName" minlength="3" required="required" size="50"><br>
-    
-        Phone number (format: xxx-xxx-xxxx)<br>
-    
-        <input type="tel" name="phone number" pattern="^\d{3}-\d{3}-\d{4}$" required="required"><br>
-      
-        Your email<br>
-        <input type="email" name="email"> 
-        <br>
-        Would you buy a golf? choose both for maybe.
-        <br>
-      Yes
-    <input type="checkbox" name="Would you buy a golf">
-    No
-    <input type="checkbox" name="Would you buy a golf">
-    <br>    
-    
-    what year golf would you like
-    <input type="number" id="year" name="model year" min="1974" required="required">
-    
-    
-    <p>What colour would you like your golf to be?</p>
-
-        <div>
-            <input type="color" id="red" name="red"
-                   value="#e66465">
-            <label for="red">Primary colour</label>
-        <div>
-            <input type="color" id="orange" name="orange"
-                    value="#f6b73c">
-            <label for="orange">Secondary colour</label>
-        </div>
-        <input type="submit" value="Send">
-    
-        <input type="reset" value="Reset">
-    </form>
-</body>
-
-
-</html>
+      Your email<br>
+      <input type="email" name="email"> 
+      <br><br>
+      Would you buy a golf? choose both for maybe.
+      <br>
+    Yes
+  <input type="checkbox" name="Would you buy a golf">
+  No
+  <input type="checkbox" name="Would you buy a golf">
+  <br><br>    
+  
+  what year golf would you like
+  <input type="number" id="year" name="model year" min="1974" required="required">
+  
+  
+  <p>What colour would you like your golf to be?</p>
+  
+          <input type="color" id="red" name="red"
+                 value="#e66465">
+          <label for="red">Primary colour</label>
+  
+          <input type="color" id="orange" name="orange"
+                  value="#f6b73c">
+          <label for="orange">Secondary colour</label>
+          <br>
+  <p>Put a link to your favourite car here</p>
+          <input type="url" id="link to car" name="link to favourite car" >
+  <br>
+  <p>What is your favourite time to drive in?</p>
+  <input type="month" id="time to drive" name="favourite time to drive">
+  <br>
+          <input type="submit" value="Send">
+  
+          <input type="reset" value="Reset">
+  
+  </form>
+  </div>
+  
+  </body>
+  </html>
