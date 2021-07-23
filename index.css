@@ -10,3 +10,33 @@ form
     margin-right: auto;
     text-align: left;
 }
+
+h1 {text-align: center;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+img 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+  h1 {text-align: center;}
+
+  
