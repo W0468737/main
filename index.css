@@ -32,6 +32,10 @@ ul {
   border: 1px solid #555;
 }
 
+img{
+    size:70%;
+}
+
 .navbar a {
     text-decoration: none;
     background-color: #555;  
